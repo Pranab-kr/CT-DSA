@@ -19,7 +19,7 @@ int main() {
 
   scanf("%d %d", &pos, &ele);
 
-  if (pos < 1 && pos > n + 1) {
+  if (pos < 1 || pos > n + 1) {
     printf("Enter a valid position.");
 
     return 1;
