@@ -8,6 +8,7 @@ int isFull() { return (rare == MAX - 1); }
 int isEmpty() { return (front == -1); }
 
 void enqueue(int val) {
+
   if (isFull()) {
     printf("The queue is overdlow");
     return;

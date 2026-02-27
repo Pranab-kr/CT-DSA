@@ -7,7 +7,7 @@ int main() {
   printf("Enter how aany ele of the aray: ");
   scanf("%d", &n);
 
-  int arr[n + 1];
+  int arr[n];
 
   printf("Enter the ele of the array: ");
   for (int i = 0; i < n; i++) {
@@ -18,7 +18,7 @@ int main() {
   printf("Enter the position u want to delete: ");
   scanf("%d", &pos);
 
-  if (pos < 0 || pos > n + 1) {
+  if (pos < 0 || pos > n) {
     printf("Enter a valid position.\n");
     return 1;
   }

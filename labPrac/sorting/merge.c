@@ -30,6 +30,7 @@ void merge(int arr[], int low, int mid, int high) {
     arr[k++] = Right[j++];
   }
 }
+
 void mergeSort(int arr[], int low, int high) {
   if (low < high) {
     int mid = (low + high) / 2;
